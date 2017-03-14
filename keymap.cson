@@ -1,0 +1,16 @@
+'atom-text-editor:not([mini])':
+    'cmd-d': 'editor:delete-to-beginning-of-line'
+    'cmd-alt-down': 'editor:duplicate-lines'
+    'cmd-alt-up': 'editor:duplicate-lines'
+    'cmd-l': 'go-to-line:toggle'
+    'shift-cmd-R': 'unset!'
+    'ctrl-m': 'nuclide-file-tree:toggle'
+    'shift-cmd-F': 'jsformat:format'
+    'alt-cmd-/': 'block-comment:toggle'
+
+'.platform-darwin':
+  'shift-cmd-R': 'fuzzy-finder:toggle-file-finder'
+  'ctrl-m': 'nuclide-file-tree:toggle'
+  'ctrl-h': 'project-find:show'
+  'shift-cmd-F': 'jsformat:format'
+  'alt-cmd-/': 'block-comment:toggle'
