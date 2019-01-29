@@ -1,0 +1,21 @@
+# githubPersonal
+Host personal
+   HostName github.com
+   User git
+   IdentityFile ~/.ssh/personal_github_rsa
+
+# githubWork
+Host work
+   HostName github.com
+   User git
+   IdentityFile ~/.ssh/github_rsa
+# githubSalesforce
+Host salesforce
+    HostName github.com
+    User git
+    IdentityFile ~/.ssh/salesforce_rsa
+# githubEcomDemandware
+Host ecom
+    HostName stash.lab.demandware.net
+    User git
+    IdentityFile ~/.ssh/ecom_demandware_rsa
