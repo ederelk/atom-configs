@@ -1,13 +1,5 @@
-file-icons
-autoclose-html
-docblockr
-fold-functions
-git-time-machine
-jsformat
-language-babel
-linter
-linter-jshint
-linter-ui-default
-local-history
-merge-conflicts
-platformio-ide-terminal
+
+
+apm install file-icons autoclose-html docblockr fold-functions git-time-machine jsformat language-babel linter linter-jshint linter-ui-default local-history merge-conflicts platformio-ide-terminal
+
+apm install atom-rails-envy-dark
