@@ -4,13 +4,13 @@
     'cmd-alt-up': 'editor:duplicate-lines'
     'cmd-l': 'go-to-line:toggle'
     'shift-cmd-R': 'unset!'
-    'ctrl-m': 'nuclide-file-tree:toggle'
+    'ctrl-m': 'tree-view:toggle'
     'shift-cmd-F': 'jsformat:format'
     'alt-cmd-/': 'block-comment:toggle'
 
 '.platform-darwin':
   'shift-cmd-R': 'fuzzy-finder:toggle-file-finder'
-  'ctrl-m': 'nuclide-file-tree:toggle'
+  'ctrl-m': 'tree-view:toggle'
   'ctrl-h': 'project-find:show'
   'shift-cmd-F': 'jsformat:format'
   'alt-cmd-/': 'block-comment:toggle'
