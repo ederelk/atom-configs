@@ -1,4 +1,10 @@
 "*":
+  "atom-typescript":
+    disableAtomIdeDefinitions: true
+    preferBuiltinBusySignal: true
+    preferBuiltinOccurrenceHighlight: true
+    preferBuiltinSigHelp: true
+    preferBuiltinTooltips: true
   core:
     allowPendingPaneItems: false
     customFileTypes:
@@ -14,6 +20,7 @@
       "source.js.jsx": [
         "jsx"
         "js"
+        "tsx"
       ]
       "source.json": [
         ".arcconfig"
@@ -35,16 +42,13 @@
       "language-thrift"
       "language-graphql"
       "MagicPython"
-      "linter"
       "appcelerator-titanium"
       "nuclide-format-js"
       "atom-ide-ui"
-      "tree-view"
       "react"
       "image-view"
       "symbols-tree-view"
-      "git-diff"
-      "language-javascript"
+      "minimap-autohider"
     ]
     telemetryConsent: "no"
     themes: [
@@ -52,21 +56,35 @@
       "atom-rails-envy-dark"
     ]
   editor:
-    fontSize: 15
+    fontSize: 16
     preferredLineLength: 1000
     tabLength: 4
     tabType: "soft"
   "exception-reporting":
-    userId: "cc01033c-efd8-45da-b583-a6ed4e0e5d8e"
+    userId: "f967d3b0-d2ce-44f7-86bb-d7ada58de045"
   jsformat:
     format_on_save: false
   "language-babel":
     autoIndentJSX: true
     keepFileExtension: true
   linter: {}
+  "linter-eslint":
+    autofix:
+      fixOnSave: true
   "linter-jshint": {}
   "linter-ui-default":
+    alwaysTakeMinimumSpace: true
     panelHeight: 69
+  minimap:
+    plugins:
+      bookmarks: true
+      bookmarksDecorationsZIndex: 0
+      "git-diff": true
+      "git-diffDecorationsZIndex": 0
+      linter: true
+      linterDecorationsZIndex: 0
+      "minimap-autohider": false
+      "minimap-autohiderDecorationsZIndex": 0
   nuclide:
     "atom-ide-diagnostics-ui": {}
     installRecommendedPackages: true
@@ -195,7 +213,10 @@
     scrollSyncType: "Vertical + Horizontal"
   "symbols-tree-view":
     defaultWidth: 300
-  "tree-view": {}
+  "tree-view":
+    alwaysOpenExisting: true
+    autoReveal: true
+    hideIgnoredNames: true
   welcome:
     showOnStartup: false
 ".reason.source":

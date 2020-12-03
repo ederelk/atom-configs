@@ -1,3 +1,4 @@
+
 'atom-text-editor:not([mini])':
     'cmd-d': 'editor:delete-to-beginning-of-line'
     'cmd-alt-down': 'editor:duplicate-lines'
@@ -7,6 +8,7 @@
     'ctrl-m': 'tree-view:toggle'
     'shift-cmd-F': 'jsformat:format'
     'alt-cmd-/': 'block-comment:toggle'
+    'shift-cmd-L': 'bookmarks:toggle-bookmark'
 
 '.platform-darwin':
   'shift-cmd-R': 'fuzzy-finder:toggle-file-finder'
