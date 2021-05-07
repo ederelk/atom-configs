@@ -20,8 +20,6 @@
       "source.js.jsx": [
         "jsx"
         "js"
-        "tsx"
-        "ts"
       ]
       "source.json": [
         ".arcconfig"
@@ -29,6 +27,10 @@
       ]
       "source.python": [
         "BUCK"
+      ]
+      "source.ts.tsx": [
+        "tsx"
+        "ts"
       ]
     disabledPackages: [
       "tool-bar"
@@ -203,6 +205,15 @@
       "nuclide-url-hyperclick": "default"
       "nuclide-vcs-log": "default"
       "nuclide-working-sets": "default"
+  pigments:
+    autocompleteScopes: [
+      ".source.css"
+      ".source.css.less"
+      ".source.sass"
+      ".source.css.scss"
+      ".source.stylus"
+      ".source.less"
+    ]
   "platformio-ide-terminal":
     style:
       theme: "homebrew"
