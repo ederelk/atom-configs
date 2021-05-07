@@ -21,6 +21,7 @@
         "jsx"
         "js"
         "tsx"
+        "ts"
       ]
       "source.json": [
         ".arcconfig"
@@ -49,6 +50,7 @@
       "image-view"
       "symbols-tree-view"
       "minimap-autohider"
+      "busy-signal"
     ]
     telemetryConsent: "no"
     themes: [
@@ -74,7 +76,8 @@
   "linter-jshint": {}
   "linter-ui-default":
     alwaysTakeMinimumSpace: true
-    panelHeight: 69
+    panelHeight: 285
+    showProviderName: true
   minimap:
     plugins:
       bookmarks: true
@@ -205,6 +208,11 @@
       theme: "homebrew"
     toggles:
       autoClose: true
+  "prettier-atom":
+    formatOnSaveOptions:
+      enabled: true
+      isDisabledIfNoConfigFile: true
+    useEslint: true
   "split-diff":
     diffWords: true
     ignoreWhitespace: true
@@ -217,6 +225,7 @@
     alwaysOpenExisting: true
     autoReveal: true
     hideIgnoredNames: true
+    hideVcsIgnoredFiles: true
   welcome:
     showOnStartup: false
 ".reason.source":
