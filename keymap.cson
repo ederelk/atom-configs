@@ -18,7 +18,8 @@
     'shift-cmd-R': 'unset!'
     'ctrl-m': 'tree-view:toggle'
     'shift-cmd-F': 'jsformat:format'
-    'alt-cmd-/': 'block-comment:toggle'
+    'cmd-?': 'block-comment:toggle'
+    'alt-cmd-/': 'jsx-comment:toggleComment'
     'shift-cmd-L': 'bookmarks:toggle-bookmark'
 
 '.platform-darwin':
@@ -26,7 +27,8 @@
   'ctrl-m': 'tree-view:toggle'
   'ctrl-h': 'project-find:show'
   'shift-cmd-F': 'jsformat:format'
-  'alt-cmd-/': 'block-comment:toggle'
+  'cmd-?': 'block-comment:toggle'
+  'alt-cmd-/': 'jsx-comment:toggleComment'
 
 
 #
